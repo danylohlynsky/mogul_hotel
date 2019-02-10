@@ -39,19 +39,3 @@ function left() {
 draw();
 draw();
 left();
-
-
-// autoSlider();
-// let left = 0;
-
-// function autoSlider() {
-//     setTimeout(function() {
-//         let strip = document.getElementById('strip');
-//         left -= 720;
-//         if (left === -2160) {
-//             left = 0;
-//         }
-//         strip.style.left = left + 'px';
-//         autoSlider();
-//     }, 2000);
-// }
