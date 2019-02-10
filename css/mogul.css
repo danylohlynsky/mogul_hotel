@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
 body {
-    max-width: 980px;
+    max-width: 720px;
     margin: auto;
 }
 
@@ -22,28 +22,22 @@ header .menu {
     height: 50px;
 }
 
-/* header .language {*/
+#slider {
+    width: 720px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
 
-/*    padding: 0;*/
-
-/*    float: right;*/
-
-/*    margin: 0px 15px 15px 0px;*/
-
-/*    width:35px; */
-
-/*    height:35px;*/
-
-/* } */
-
-header .mainfoto {
-    background-image: url(../image/mogul.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: 475px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.slide-single {
+    width: 720px;
+    height: 300px;
+    position: absolute;
+    transition: all ease 2s;
+    left: 0;
+    top: 0;
 }
 
 .button {
@@ -111,7 +105,8 @@ header .mainfoto {
 }
 
 #about {
-    background-color: grey;
+    margin-top: 0;
+    padding: 10px;
 }
 
 #table {
