@@ -1,45 +1,46 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Бронювання </title>
+    <title> Booking </title>
     <link href="css/mogul.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <form method="POST" action="https://formspree.io/danylohlynsky@gmail.com">
         <label>
-            Електронна адреса: <br> <input required="" type="email" placeholder="email" name="user-email">
+            Email: <br> <input required="" type="email" placeholder="email" name="user-email">
         </label>
         <br>
         <label>
-            Ім'я: <br> <input required="" type="text" placeholder="name" name="user-name">
+            Name: <br> <input required="" type="text" placeholder="name" name="user-name">
         </label>
         <br>
-        <label>Дата заїзду: <br> <input type="date" name="trip-start" value="2019-03-24" min="2019-01-28" max="2019-12-31">
+        <label>
+            Check-in: <br> <input type="date" name="trip-start" value="2019-03-24" min="2019-01-28" max="2019-12-31">
         </label>
         <br>
-        <label>Дата відїзду: <br> <input type="date" name="trip-end" value="2019-03-29" min="2019-01-28" max="2019-12-31">
+        <label>
+            Check-out: <br> <input type="date" name="trip-end" value="2019-03-29" min="2019-01-28" max="2019-12-31">
         </label>
         <br>
         <label> 
         <input type="radio" name="gender" value="Big room"> 
-        Велика кімната 
+            Big room
         </label>
         <br>
         <label> 
         <input type="radio" name="gender" value="Small room"> 
-        Мала кімната 
+            Small room 
         </label>
         <br>
         <input type="submit">
     </form>
     <br>
-    
-    <a href="mogul.html" class="button"> Інфо </a>
+    <a href="mogul_en.html" class="button"> Info </a>
 </body>
 
 </html>
