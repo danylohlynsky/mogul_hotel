@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <form method="POST" action="https://formspree.io/danylohlynsky@gmail.com">
+    <!--method="POST" action="https://formspree.io/danylohlynsky@gmail.com"-->
+    <form>
         <label>
             Email: <br> <input required="" type="email" placeholder="email" name="user-email">
         </label>
@@ -20,11 +21,11 @@
         </label>
         <br>
         <label>
-            Check-in: <br> <input type="date" name="trip-start" value="2019-03-24" min="2019-01-28" max="2019-12-31">
+            Check-in: <br> <input type="date" name="trip-start" value="2019-03-24" min="2019-01-28" max="2019-12-31" id="date-start">
         </label>
         <br>
         <label>
-            Check-out: <br> <input type="date" name="trip-end" value="2019-03-29" min="2019-01-28" max="2019-12-31">
+            Check-out: <br> <input type="date" name="trip-end" value="2019-03-29" min="2019-01-28" max="2019-12-31" id="date-end">
         </label>
         <br>
         <label> 
@@ -37,10 +38,9 @@
             Small room 
         </label>
         <br>
-        <input type="submit">
+        <input type="submit" id="submit-button">
     </form>
     <br>
     <a href="mogul_en.html" class="button"> Info </a>
 </body>
-
 </html>

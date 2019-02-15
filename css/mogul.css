@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
 body {
-    max-width: 720px;
-    min-width:330px;
+    max-width: 980px;
+    min-width: 100px;
     margin: auto;
     font-family: 'Alegreya Sans', monospace;
 }
@@ -56,7 +56,7 @@ header .nav-link {
 .pricetable {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 95%;
     border-spacing: 0;
 }
 
@@ -162,7 +162,7 @@ input[type=text],
 input[type=email],
 input[type=date],
 select {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
